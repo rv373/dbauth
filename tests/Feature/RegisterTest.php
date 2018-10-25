@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class RegisterTest extends TestCase
 {
     /**
-     * A basic test example.
+     * A basic Register test example.
      *
      * @return void
      */
@@ -18,4 +18,5 @@ class RegisterTest extends TestCase
         $response = $this->get('/register');
 
         $response->assertStatus(200);    }
+
 }
